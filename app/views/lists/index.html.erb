@@ -1,0 +1,13 @@
+
+<%= render "banner" %>
+<div class="m-5">
+  <p>My lists</p>
+  <div class="cards-list">
+    <% @lists.each do |list| %>
+      <%= render "card", list: list%>
+      <br>
+    <% end %>
+  </div>
+  <br>
+  <%= link_to "Create a list", new_list_path %>
+</div>
