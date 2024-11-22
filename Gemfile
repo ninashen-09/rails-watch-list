@@ -10,6 +10,8 @@ gem "sassc-rails" # Uncomment this line
 
 gem "dotenv-rails"
 
+gem "cloudinary"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.5"
 
